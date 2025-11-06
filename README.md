@@ -1,52 +1,99 @@
-========================
-JUEGO DE PELEA 1 VS 1
-========================
+🥊 Juego de Pelea 1 vs 1
+🎮 Nombre del juego
 
-DESCRIPCIÓN
-------------
-Este es un juego de pelea 1 vs 1 hecho en GameMaker.
-Dos jugadores pueden elegir sus personajes y enfrentarse usando movimientos y ataques básicos.
+Pelea Definitiva
 
-CONTROLES
+Justificación del nombre
 
-Jugador 1:
-- Mover izquierda: A
-- Mover derecha : D
-- Golpear (puño) : Q
+El nombre “Pelea Definitiva” representa la intensidad del combate entre dos jugadores que se enfrentan cara a cara hasta que solo uno quede en pie. Es simple, directo y refleja la esencia del juego: un duelo decisivo.
 
-Jugador 2:
-- Mover izquierda: Flecha izquierda (←)
-- Mover derecha : Flecha derecha (→)
-- Golpear (puño) : Flecha arriba (↑)
+📖 Descripción
 
-MECÁNICA DE JUEGO
------------------
-1. Cada jugador tiene 100 puntos de vida (hp).
-2. Cada puño que conecta le quita 10 de vida al oponente.
-3. La vida se muestra con una barra de vida en la parte superior de la pantalla.
-4. Los jugadores no pueden salirse de los límites de la pantalla.
-5. Cuando la vida de un jugador llega a 0, se muestra un mensaje indicando quién ganó y el juego vuelve a la pantalla de inicio (rm_inicio).
+Este es un juego de pelea 1 vs 1 desarrollado en GameMaker Studio 2, donde dos jugadores pueden elegir sus personajes y enfrentarse usando movimientos y ataques básicos.
 
-SELECTOR DE PERSONAJE
----------------------
-- Antes de pelear, cada jugador selecciona su personaje en el objeto obj_selector.
-- El obj_controller instancia los personajes seleccionados para la pelea.
-- Cada personaje tiene su propio sprite y animaciones de movimiento y ataque.
+Cada jugador tiene una barra de vida y debe intentar reducir la del oponente a cero para ganar la partida.
+Incluye también un selector de personajes y un tutorial interactivo que enseña los controles paso a paso.
 
-TUTORIAL (rm_tutorial)
-----------------------
-- Al iniciar el tutorial, se muestran los controles paso a paso.
-- Debes presionar la tecla correspondiente para avanzar al siguiente paso.
-- El tutorial incluye representación visual de cada acción para aprender fácilmente.
-- Al finalizar, vuelve automáticamente a la pantalla de inicio.
+🕹️ Controles
+Jugador 1
 
-RECOMENDACIONES
----------------
-- Jugar en pantalla de 480x480 px para que los personajes y barras de vida se vean correctamente.
-- Asegurarse de que los sprites de los personajes estén asignados correctamente en el obj_selector y en los objetos de jugador.
-- Revisar que las variables hp y max_hp estén definidas en cada objeto jugador para que la barra de vida funcione.
+Mover izquierda: A
 
-CRÉDITOS
---------
-- Desarrollado por: [Leandro Macedo, Pablo Mecoll, Tiziano Fernandez y Jean Ortiz]
-- GameMaker Studio 2
+Mover derecha: D
+
+Golpear (puño): Q
+
+Jugador 2
+
+Mover izquierda: Flecha izquierda (←)
+
+Mover derecha: Flecha derecha (→)
+
+Golpear (puño): Flecha arriba (↑)
+
+⚔️ Mecánica de juego
+
+Cada jugador comienza con 100 puntos de vida (HP).
+
+Cada golpe que conecta quita 10 puntos de vida al oponente.
+
+La barra de vida se muestra en la parte superior de la pantalla.
+
+Los jugadores no pueden salirse de los límites de la pantalla.
+
+Cuando un jugador llega a 0 de vida, aparece un mensaje con el ganador y el juego vuelve a la pantalla de inicio (rm_inicio).
+
+👥 Selector de personaje
+
+Antes del combate, cada jugador selecciona su personaje en el objeto obj_selector.
+El obj_controller crea los personajes elegidos para la pelea.
+Cada personaje tiene su propio sprite y animaciones de movimiento y ataque.
+
+📘 Tutorial (rm_tutorial)
+
+Muestra los controles paso a paso.
+
+Cada paso avanza al presionar la tecla correspondiente.
+
+Incluye imágenes que representan cada acción.
+
+Al finalizar, vuelve automáticamente a la pantalla de inicio.
+
+💻 Requisitos técnicos
+
+Recurso necesario: GameMaker Studio 2 (para abrir o ejecutar el archivo .yyz).
+
+Sistema operativo recomendado: Windows 10 o superior.
+
+Resolución recomendada: 480x480 px.
+
+Espacio mínimo requerido en disco: 100 MB.
+
+🧩 Autoría y créditos
+
+Desarrollado por: Leandro Macedo, Pablo Mecoll, Tiziano Fernandez y Jean Ortiz.
+
+Motor de desarrollo: GameMaker Studio 2.
+
+Inspiración: Creado originalmente como un proyecto educativo de pelea 1 vs 1.
+
+Recursos gráficos: Diseñados por el equipo (sin fuentes externas).
+
+Música y efectos: Recursos libres de derechos incluidos en GameMaker Studio 2.
+
+👨‍💻 Integrantes y roles
+Integrante	Rol	Tareas realizadas
+Leandro Macedo	Programador principal	Programación del sistema de combate, controladores y colisiones.
+Pablo Mecoll	Diseñador de niveles	Creación de escenarios y diseño del room principal.
+Tiziano Fernandez	Artista y animador	Creación de sprites y animaciones de personajes.
+Jean Ortiz	Coordinador y tester	Integración del contenido y pruebas de jugabilidad.
+📦 Archivos incluidos
+
+PeleaDefinitiva.yyz → Archivo exportado del juego.
+
+README.md → Documentación completa.
+
+🏁 Estado final
+
+✅ Proyecto completo y funcional, listo para entrega final.
+Repositorio con código y recursos correctamente documentados.
