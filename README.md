@@ -61,13 +61,13 @@ Al finalizar, vuelve automáticamente a la pantalla de inicio.
 
 💻 Requisitos técnicos
 
-Recurso necesario: GameMaker Studio 2 (para abrir o ejecutar el archivo .yyz).
+Recurso necesario: GameMaker Studio 2 (para abrir o ejecutar el archivo .yyz y .exe).
 
 Sistema operativo recomendado: Windows 10 o superior.
 
 Resolución recomendada: 480x480 px.
 
-Espacio mínimo requerido en disco: 100 MB.
+Espacio mínimo requerido en disco: 30 MB.
 
 🧩 Autoría y créditos
 
@@ -79,21 +79,9 @@ Inspiración: Creado originalmente como un proyecto educativo de pelea 1 vs 1.
 
 Recursos gráficos: Diseñados por el equipo (sin fuentes externas).
 
-Música y efectos: Recursos libres de derechos incluidos en GameMaker Studio 2.
-
 👨‍💻 Integrantes y roles
 Integrante	Rol	Tareas realizadas
 Leandro Macedo	Programador principal	Programación del sistema de combate, controladores y colisiones.
 Pablo Mecoll	Diseñador de niveles	Creación de escenarios y diseño del room principal.
 Tiziano Fernandez	Artista y animador	Creación de sprites y animaciones de personajes.
 Jean Ortiz	Coordinador y tester	Integración del contenido y pruebas de jugabilidad.
-📦 Archivos incluidos
-
-PeleaDefinitiva.yyz → Archivo exportado del juego.
-
-README.md → Documentación completa.
-
-🏁 Estado final
-
-✅ Proyecto completo y funcional, listo para entrega final.
-Repositorio con código y recursos correctamente documentados.
